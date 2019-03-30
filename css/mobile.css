@@ -8,12 +8,28 @@
 
   
     
-    #weather{
-        width: 100%;
+    #graph1{
+        width: 20%;
     }
     
      #graph2 {
-        width: 100%;
+        width: 20%;
+    }
+    
+     #graph3 {
+        width: 20%;
+    }
+    
+     #graph4 {
+        width: 10%;
+    }
+    
+     #graph5 {
+        width: 10%;
+    }
+    
+     #graph6 {
+        width: 10%;
     }
     
 }

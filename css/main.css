@@ -9,7 +9,7 @@
 
     #main-header {
         grid-area:header;
-        background: rgba(255, 98, 0, 0.22);
+        background: rgba(0, 88, 255, 0.22);
         display:flex;
         justify-content:center;
         line-height: 60px;
@@ -65,8 +65,9 @@
 	    position:relative;
         width: 100%;
 	    padding:20px;
-        background:rgba(253, 161, 53, 0.1);
+        background:rgba(53, 153, 253, 0.1);
         text-align: center;
+        font-size: 20px;
         
         
     }
@@ -76,10 +77,10 @@
         
     }
 
-    #main-main article #free1 , #free2 ,#free3 {
-    color: blue;
+    #graph4, #graph5 ,#graph6 {
+    color: #ffffff;
     font-size: 40px;
-    padding: 100px;
+    padding: 30px 0px 0px 0px;
     }
 
 
@@ -91,11 +92,13 @@
 
 
 
+/*
     #main-footer{
         grid-area: footer;
         background: #000000;
         opacity:0.6;
         height: 100px;
     }
+*/
     
    
