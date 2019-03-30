@@ -1,0 +1,23 @@
+@media only screen and (min-width: 1201px) and (max-width: 1500px) {
+    #main-main section .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+   
+    
+    #graph1 {
+        width: 100%;
+    }
+    
+    #graph2 {
+        width: 100%;
+        margin-right: 12.5px;
+    }
+    
+
+    
+
+}

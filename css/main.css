@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+
+
+    #main-header {
+        grid-area:header;
+        background: rgba(255, 98, 0, 0.22);
+        display:flex;
+        justify-content:center;
+        line-height: 60px;
+    }
+
+
+    body {
+        color:#ffffff;
+        
+	    display:grid;
+	    grid-template:
+        "header "
+        "main "
+        "footer";
+        background: url(../img/background1.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        background-color: rgba(0, 0, 0, 0.17);
+        background-blend-mode: color;
+       
+
+        
+    }
+
+
+    #main-main {
+        grid-area: main;
+        padding:20px;
+        height: calc(100vh - 160px);
+        
+    
+    }
+
+    #main-main section{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #main-main section .row{
+        width: 30%; 
+
+    }
+
+
+    #main-main article{
+        margin-bottom: 50px;
+    	display:flex;
+	    flex-direction:column;
+	    position:relative;
+        width: 100%;
+	    padding:20px;
+        background:rgba(253, 161, 53, 0.1);
+        text-align: center;
+        
+        
+    }
+
+    #main-main article div{
+    padding: 10px 0px 0px 0px;
+        
+    }
+
+    #main-main article #free1 , #free2 ,#free3 {
+    color: blue;
+    font-size: 40px;
+    padding: 100px;
+    }
+
+
+    #main-main article h1 {
+    text-align: center;
+        font-size: 30px;
+    }
+
+
+
+
+    #main-footer{
+        grid-area: footer;
+        background: #000000;
+        opacity:0.6;
+        height: 100px;
+    }
+    
+   
