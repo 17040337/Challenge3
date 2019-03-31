@@ -78,7 +78,7 @@
 
     #graph4, #graph5 ,#graph6 {
     color: #f8f8f8;
-    font-size: 40px;
+    font-size: 50px;
     padding: 30px 0px 0px 0px;
     }
 
@@ -91,13 +91,4 @@
 
 
 
-/*
-    #main-footer{
-        grid-area: footer;
-        background: #000000;
-        opacity:0.6;
-        height: 100px;
-    }
-*/
-    
    
