@@ -2,7 +2,7 @@ function getAPIdata5() {
 
 
 	// construct request
-	var request = "http://api.citybik.es/v2/networks/nextbike-london";
+	var request = "https://api.citybik.es/v2/networks/nextbike-london";
 	
 	// get current weather
 	fetch(request)
